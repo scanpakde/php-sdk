@@ -1,0 +1,26 @@
+{
+  "name": "scanpakde/php-sdk",
+  "license": "proprietary",
+  "description": "SDK For Scanpak.de",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Scanpak\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "fakerphp/faker": "^1.14",
+    "phpunit/phpunit": "^9.5"
+  },
+  "require": {
+    "php": "^8.0",
+    "php-units-of-measure/php-units-of-measure": "^2.1",
+    "tightenco/collect": "^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  }
+}
